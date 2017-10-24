@@ -9,27 +9,10 @@ info:
   authors: ['Martin Davis <martindavis@exosite.com>']
   version: 1.0.0
 
-####
-#
-# The following sections are all optional.
-#
-#  - assets
-#  - endpoints
-#  - modules
-#  - services
-#  - init_script
-#
-# NOTE: They all have default values that should work for a majority of the projects,
-# but are all fully configurable to fit the way you want your project to be.
-#
-# Examples follow.
-#
-####
-
 assets:
   location: assets
   include: '**/*'
-  exclude: ['**/.*']
+  exclude: ['something_spooky.html']
   default_page: index.html
 
 endpoints:
