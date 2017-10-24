@@ -1,3 +1,6 @@
+--#ENDPOINT GET /_init
+print("Creating a new user")
+
 --#ENDPOINT POST /api/user
 print("Creating a new user")
 

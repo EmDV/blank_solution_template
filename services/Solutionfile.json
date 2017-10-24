@@ -1,0 +1,15 @@
+{
+  "default_page": "assets/index.html",
+  "file_dir": "public",
+  "custom_api": "endpoints/example.lua",
+  "custom_api_hook": "_init",
+  "modules": {
+    "example": "modules/example.lua"
+  },
+  "event_handler": {
+    "device": {
+      "datapoint": "services/product.lua"
+    }
+  },
+  "cors": {"origin": ["http://localhost:*"]}
+}
